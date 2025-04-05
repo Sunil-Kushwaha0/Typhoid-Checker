@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background: url('https://www.dicomdirector.com/wp-content/uploads/2021/11/digital-3d-medical-imaging-2390x1195.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 40px 30px;
+    max-width: 450px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    backdrop-filter: blur(5px);
+    max-height: 90vh;
+    overflow-y: auto;
+    color: #fff;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #17ddff;
+    margin-bottom: 25px;
+    font-size: 26px;
+  }
+  
+  label {
+    font-weight: 600;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #060a0b;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #000000;
+    border: 1px solid rgba(20, 20, 20, 0.4);
+    border-radius: 8px;
+    font-size: 15px;
+    transition: all 0.3s;
+  }
+  
+  input::placeholder {
+    color: #000000;
+  }
+  
+  input:focus,
+  select:focus {
+    border-color: #ffffff;
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 25px;
+    background: linear-gradient(to right, #00bfa5, #004d40);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, #004d40, #002e27);
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffcc;
+    text-align: center;
+  }
